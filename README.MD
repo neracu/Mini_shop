@@ -3,7 +3,6 @@
 A simple yet functional **e-commerce web application** built with **Django**.  
 The project is designed to demonstrate core backend concepts: authentication, product management, cart logic, and order processing - without online payments.
 
-Perfect for learning Django and showcasing backend skills 🚀
 
 ---
 
