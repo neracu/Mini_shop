@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     'goods.apps.GoodsConfig',
     'main.apps.MainConfig',
     'users.apps.UsersConfig',
+    'carts.apps.CartsConfig',
 
     'django.contrib.admin',
     'django.contrib.auth',
