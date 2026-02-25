@@ -25,3 +25,23 @@ def about(request):
 
     return render(request, 'main/about.html', context)
 
+
+def delivery(request):
+    context = {
+        'title': 'Доставка и оплата',
+        'content': 'Можем доставить, а вы можете оплатить',
+        'text_on_page': 'Доставка в любую точку мира'
+    }
+
+    return render(request, 'main/delivery.html', context)
+
+
+def contacts(request):
+    context = {
+        'title': 'Наши контакты',
+        'content': 'Контакты',
+        'text_on_page': 'Номер: +88005553535'
+    }
+
+    return render(request, 'main/contacts.html', context)
+
